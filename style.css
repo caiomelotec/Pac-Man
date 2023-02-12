@@ -1,0 +1,114 @@
+body {
+    background: #000000;
+    padding-left: 20px;
+}
+
+
+.div0 {
+    display: flex;
+    margin-top: 100px;
+    position: absolute;
+}
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background: #E0E246;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.div2 {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: black;
+    clip-path: polygon(38% 51%, 99% 100%, 100% 0);
+    position: absolute;
+    z-index: 5;
+    height: 90px;
+    border: none;
+
+}
+
+.div3 {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    clip-path: circle(10% at 50% 50%);
+    margin-left: 40px;
+}
+
+.div4 {
+    width: 100px;
+    height: 100px;
+    background: #FFFFFF;
+    clip-path: circle(10% at 50% 50%);
+    margin-left: 2px;
+}
+
+.div5 {
+    width: 75px;
+    height: 100px;
+    background: #C74E4E;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 100% 100%,
+            50% 100%, 0 100%, 0% 70%, 0% 35%, 20% 10%);
+}
+
+.div6 {
+    background: black;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 33px;
+    height: 20px;
+    z-index: 150;
+    margin-left: -3px;
+    margin-top: 85px;
+    position: absolute;
+
+}
+
+.div7 {
+    background: black;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 30px;
+    height: 20px;
+    z-index: 150;
+    margin-left: 25px;
+    margin-top: 85px;
+    position: absolute;
+
+}
+
+.div8 {
+    background: black;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    width: 30px;
+    height: 20px;
+    z-index: 150;
+    margin-left: 49px;
+    margin-top: 85px;
+    position: absolute;
+
+}
+
+.div9 {
+    background: rgb(8, 8, 8);
+    clip-path: circle(50% at 50% 50%);
+    width: 10px;
+    height: 10px;
+    z-index: 150;
+    margin-left: 18px;
+    margin-top: 23px;
+    position: absolute;
+
+}
+
+.div10 {
+    background: #000000;
+    clip-path: circle(50% at 50% 50%);
+    width: 10px;
+    height: 10px;
+    z-index: 150;
+    margin-left: 43px;
+    margin-top: 23px;
+}
